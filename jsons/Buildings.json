@@ -1,7 +1,55 @@
 [
+	// Additional Features
         {
                 "name": "Planet Human Pandemic",
                 "isNationalWonder": true,
-                "uniques": ["Make Migration Victory","Only available <when above [4999] [Interest]> <hidden from users>","[+100 Food] [in all cities] <hidden from users>"],
+                "uniques": ["Make Migration Victory","Only available <when above [999] [Interest]> <hidden from users>","[+100 Food] [in all cities] <hidden from users>"],
         }
+	// Base Mod Features
+	{
+		"name": "Museum of the Frontier",
+		"maintenance": 1,
+		"culture": 3,
+		"hurryCostModifier": 15,
+		"specialistSlots": { "Scientist": 1 },
+		"requiredBuilding": "Field Lab",
+		"uniques": [
+			"Provides [1] [Interest]",
+			"[+1 Science, +1 Culture] from [Artifacts] tiles [in this city]"
+		],
+		"requiredTech": "Research Networks",
+		"civilopediaText": [
+			{
+				"text": "Commemorating the history and achievements of the new world's pioneers through interactive diorama and immersive info panels."
+			}
+		]
+	},
+	{
+		"name": "Petting Zoo",
+		"maintenance": 2,
+		"specialistSlots": { "Scientist": 1 },
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Interest]","[+1 Happiness] from [Snuffets] tiles [in this city]"],
+		"requiredNearbyImprovedResources": ["Snuffets"],
+		"requiredTech": "Hab-Domes",
+		"civilopediaText": [
+			{
+				"text": "Fun for kids, adults, and Snuffets alike."
+			}
+		]
+	},
+	{
+		"name": "Rec Area",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Prefab","[Provides] [1] [Interest]"],
+		"requiredTech": "Hab-Domes",
+		"civilopediaText": [
+			{
+				"text": "Whether it's the old Earth tradition of karaoke, massages, videogames, or just a place to relax, this place offers it all and more."
+			}
+		]
+	},
 ]
