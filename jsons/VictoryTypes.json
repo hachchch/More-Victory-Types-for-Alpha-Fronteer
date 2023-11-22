@@ -2,6 +2,7 @@
         {
                 "name": "Migration",
                 "victoryScreenHeader": "Finish Mass Migration to Win!",
+                "milestones": ["Build [Planet Human Pandemic]"],
                 "victoryString": "",
                 "defeatString": "",
         }
