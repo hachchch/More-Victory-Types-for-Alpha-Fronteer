@@ -1,0 +1,7 @@
+[
+        {
+                "name": "Interest",
+		"resourceType": "Strategic",
+		"uniques": ["Victory Resource Type Unique","Cannot be traded <before discovering [FTL Travel]> <hidden from users>","Stockpiled <hidden from users>"],
+        }
+]
