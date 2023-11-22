@@ -1,0 +1,72 @@
+[
+        {
+                "name": "Presentation",
+		"era": "Colonization era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 30,
+			"Diplomatic": 30,
+			"Domination": 0,
+			"Scientific": 0
+        	}
+		"uniques": ["Provides [3] [Interest]"],
+		"policies": [
+			{
+				"name": "Free Immigration",
+				"uniques": [
+                                        "Provides [1] [Interest]",
+					"Provides [1] [Interest] <when at war>",
+                                        "Provides [1] [Interest] <upon conquering a city>"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Cyber Entrepreneurs",
+				"uniques": [
+					"[+1 Science] from every [Merchant]",
+					"[+1 Gold] from [Server Farm] tiles [in all cities]"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Field Research",
+				"uniques": [
+					"[+1 Science] from [Research Base] tiles [in all cities]",
+					"[+1 Science] [in all cities connected to capital]",
+                                        "Double quantity of [Interest] produced"
+				],
+				"requires": ["Colonial Patents"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Scientific Management",
+				"uniques": [
+					"[+1 Gold] from all [Science] buildings",
+					"[+3 Gold] from [Academy] tiles [in all cities]"
+				],
+				"requires": ["Colonial Patents", "Cyber Entrepreneurs"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Legacies of Genius",
+				"uniques": [
+					"[+50 Science] whenever a Great Person is expended"
+				],
+				"requires": ["Scientific Management"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Ingenuity Complete",
+				"uniques": [
+					"[1] Free Technologies",
+					"[+100]% Gold from Great Merchant trade missions"
+				]
+			}
+		]
+        }
+]
